@@ -1,0 +1,168 @@
+@media screen and (max-width: 1220px) {
+    /* citacão */
+    .citacao blockquote p {
+        padding-right: 200px;
+    }
+
+    /* cadastro */
+    .cadastro-item:first-child {
+        padding-left: 55px;
+    }
+
+    /* footer */
+    .social-icons li {
+        margin-bottom: 10px;
+    }
+    /* formulario 1 */
+    .formulario .coluna-1{
+        padding-left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    /* investimentos */
+    .investimentos-item {
+        background: #fff;
+        padding: 30px 10px 20px 10px;
+        border-radius: 4px;
+    }
+
+    /* citacão */
+    .citacao blockquote p {
+        padding-right: 100px;
+    }
+
+    /* cadastro */
+    .cadastro-item:first-child {
+        padding-left: 55px;
+    }
+
+    .form  input{
+        width: 280px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        display: block;
+        background: #dddddd;
+        padding: 10px 5px;
+        border: none;
+        border-radius: 4px; 
+    }
+
+    /* formulario 1 */
+    .formulario .coluna-1{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 806px) {
+    /* Estilo gerais */
+    h1, h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* header */
+    .header {
+        height: 80px;
+        flex-direction: column;
+    }
+
+    .header img {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+    }
+
+    .menu li a.btn {
+        display: none;
+    }
+
+    /* intro */
+    .intro h1 {
+        padding: 0;
+        
+    }
+
+    .intro .btn {
+        display: block;
+        text-align: center;
+        margin: 20px 10px;
+    }
+
+    /* citacao */
+    .citacao blockquote p {
+        font-size: 32px;
+        line-height: 48px;
+        padding-right: 0;
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+
+    /* cadastro */
+    .cadastro-item:first-child {
+        padding-left: 0;
+    }
+
+    .cadastro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Title */
+
+    .title {
+        padding: 0;
+        text-align: center;
+    }
+
+    .title h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    /* formulario */
+    .form {
+        clear: both;
+        
+    }
+
+    .formulario .form input {
+        width: 300px;
+    }
+
+    .formulario .btn {
+        margin: 25px 0 0 100px;
+    }
+
+    /* progressbar */
+    .progressbar {
+        width: 300px;  
+    }
+
+    /* cadastro form-2 */
+    .form-2 {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .form-2 .small input {
+        width: 130px;
+       
+    }
+
+    /* cadastro 3 */
+    .cadastro-3 h2 {
+        clear: both;
+    }
+
+
+
+}
